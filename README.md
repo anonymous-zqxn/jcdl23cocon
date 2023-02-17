@@ -2,7 +2,7 @@
 
 A data set capturing the combined use of research artifacts, contextualized through academic publication text.
 
-* [Data sample](#data) (`data/`)
+* [Data sample](data/README.md) (`data/`)
 * [Code](#usage) (`contexthraph/`)
 
 ## Usage
