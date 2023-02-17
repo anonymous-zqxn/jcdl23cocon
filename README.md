@@ -20,8 +20,6 @@ parameter | values | default | explanation
 --------- | ------ | ------- | -----------
 shallow   | bool   | False   | True: all node and edge features except for type will be discarded.
 &zwnj;    | &zwnj; | &zwnj;  | False: nodes and edges have features according to the data available on Papers with Code.
-directed  | bool   | True    | True: Return the graph as an nx.DiGraph.
-&zwnj;    | &zwnj; | &zwnj;  | False: Return the graph as an nx.Graph.
 directed  | bool   | True    | True: Return the graph as an nx.DiGraph (for an overview of directions of edges see `_load_edge_tuples` in `contextgraph/util/graph.py`).
 &zwnj;    | &zwnj; | &zwnj;  | False: Return the graph as an nx.Graph.
 with\_contexts  | bool | False | True: Also load “context” nodes (each appearance of a used entity in a paper results in a context node connected as entity--part\_of-&gt;context--part\_of-&gt;paper). **Be aware** that this will result in *a lot* of additional nodes.
