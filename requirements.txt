@@ -1,0 +1,7 @@
+requests
+regex
+networkx
+numpy
+matplotlib
+scipy
+nltk
